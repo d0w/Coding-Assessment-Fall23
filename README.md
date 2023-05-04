@@ -18,6 +18,12 @@ A simple to-do list app with a few basic requirements
 **Database**
 * MongoDB
 
+## Run instructions
+- Clone the repo
+- In the backend directory, type `npm install` and `nodemon server`. The command-line should say that you are connected to the DB. If there is an issue, the Atlas database might have been deactivated, at which point you can create your own MongoDB on Atlas and change the `MONGO_URI` in `backend/server.js` to your own URI.
+- In the frontend directory, type `npm install` and `npm start`
+
+
 ## Tips to Help You Get Started ##
 - Fork this repository
 - Clone the forked repository in your IDE
